@@ -11,7 +11,7 @@ let matches = states.filter(states => {
    const regex = new RegExp('^${searchText}', 'gi'); 
    return states.name.match(regex) || state.abbr.match(regex);
  });
-    if (searchText.length ===0){
+    if (searchText.length === 0) {
         matches= [];
         matchlist.innerHTML = '';
     }
@@ -20,12 +20,12 @@ let matches = states.filter(states => {
 // show results in html 
 const outputhtml = matches => {
     if(matches.length > 0){
-        const html =matches.map(match => '
+        const html =matches.map(match => `
         <div class="card card-body mb-1">
          <h4>${match.name} (${match.abbr})<span class="text-primary">${match.capital}</span></h4> 
         <small>lat: ${match.lat} / long: ${match.long}</small>
         </div>
-        ').join('');
+        `).join('');
         matchlist.innerHTML = html;
     }
 }
