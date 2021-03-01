@@ -11,6 +11,6 @@ console.log(states);
 // const regex = new RegExp('^${searchText}', 'gi'); 
 //    return states.name.match(regex) || state.abbr.match(regex);
 // });
- console.log(matches);   
+// console.log(matches);   
 };
 search.addEventListener('input',() => searchStates(search.value));
