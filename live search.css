@@ -1,0 +1,43 @@
+.container {
+    width:auto;
+    background-color: blue;
+    height: 900px;
+}
+.hnav {
+   width: auto;
+   height: 35px;
+}
+.logo{
+    margin-left: 30px; 
+    margin-top: 40px;
+    margin-bottom:60px;
+    font-size: 20px;
+    position: absolute;
+    right: 40px;top: -17px;
+}
+.hnav ul {
+    list-style-type: none;
+    display:flex;
+    background-color: darkblue;
+}
+.hnavil {
+   margin-left: 50px ; margin-top: 40px;font-size: 20px;margin-bottom:35px;
+}
+.hnavil a {
+   text-decoration: none; color: black; 
+}
+.imgh {
+  background-color:darkblue; width: auto ;height: 400px;margin-top:60px;
+  border-top-width:1px;border-top-color: gold ;border-top-style: solid;
+}
+.footer ul{
+    display:inline-block;
+    direction: rtl;
+    margin-left:20px ;
+    margin-right: 100px;
+}
+.footer a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
